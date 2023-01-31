@@ -38,10 +38,10 @@ We open and close them like so `<p> </p>`
 * there are up to 6
 * `<p>` is for paragraph
 
-###Break tag
+### Break tag
 `<br>` is html code for break, meaning a new line
 
-###Image tags
+### Image tags
 Are used to include an image
 `<img src="">`
 
