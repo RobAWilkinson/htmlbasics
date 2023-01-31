@@ -23,17 +23,17 @@
 
 ---
 
-###What is HTML
+### What is HTML
 Hyper text markup language
 html is just a contract between a browser and the server that things will be displayed in a certain way
 
-###HTML tags
+### HTML tags
 html tags are style with greater than and less than signs like: `< >`
 We open and close them like so `<p> </p>`
 
 ---
 
-###Heading tags and Paragraph tags
+### Heading tags and Paragraph tags
 * HTML uses `<h + number>` for a heading, h1 > h2 > h3
 * there are up to 6
 * `<p>` is for paragraph
@@ -45,7 +45,7 @@ We open and close them like so `<p> </p>`
 Are used to include an image
 `<img src="">`
 
-###Lists in HTML
+### Lists in HTML
 Creating lists in HTML is super ez theyre structured with two elements `<ul>` unordered list, and `<li>` list item.
 structured like so
 
@@ -56,7 +56,7 @@ structured like so
 	  <li>And we love it!</li>
 	</ul>
 
-###Tables in HTML
+### Tables in HTML
 Tables are great for doing one thing, making tables
 we structure tables with 3 main tags `<table>` to open the table `<tr>` for a table row, and  `<td>` for a table cell. We can build a table pretty quickly like so:
 
@@ -73,11 +73,11 @@ we structure tables with 3 main tags `<table>` to open the table `<tr>` for a ta
 	
 ---
 
-###Span and Div
+### Span and Div
 `<span>` and `<div>` elements are used to define parts of a document so that they are identifiable when no other HTML element is suitable. 
 Where no existing HTML element is applicable, `span` and `div` can valuably represent parts of a document so that HTML attributes such as `class` or `id` can be applied.
 
-###Section
+### Section
 Works like a div
 
 * Why is section preferred over div? Holds more info, used for grouping, a div has no special meaning 
@@ -88,7 +88,7 @@ Works like a div
 
 * http://html5.validator.nu/
 
-###Form tags
+### Form tags
 Form tags are to create HTML Forms,
 
 ```
@@ -107,7 +107,7 @@ Form tags are to create HTML Forms,
   ```
   
 ---
-###Input tags
+### Input tags
 `<input>` tags are to define....inputs
 
 each `input` tag will have at least two options, a `type`, and a `name`. 
@@ -123,7 +123,7 @@ The ones that you'll be using most often are:
 *  `radio`
 *  `button`
 
-###Select Tags
+### Select Tags
 
 So what if you want to give the user a set number of options without cluttering up your form with a huge list.
 Luckily we have the `<select>` tag!
